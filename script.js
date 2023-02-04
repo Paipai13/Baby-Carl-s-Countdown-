@@ -20,12 +20,12 @@ function countdown(){
 
   const totalSeconds = (babyBday - currentDate)/1000;
 
-  //const years = Math.floor(-1*(totalSeconds/31536034.56));
-  //const months = Math.floor(-1*(totalSeconds/2628002.88)%12);
-  //const days = Math.floor(-1*(totalSeconds/86400)%30);
-  //const hours = Math.floor(-1*(totalSeconds/3600)%24);
-  //const min = Math.floor(-1*(totalSeconds/60)%60);
-  //const sec = Math.floor(-1*(totalSeconds)%60);
+  const years = Math.floor(-1*(totalSeconds/31536034.56));
+  const months = Math.floor(-1*(totalSeconds/2628002.88)%12);
+  const days = Math.floor(-1*(totalSeconds/86400)%30);
+  const hours = Math.floor(-1*(totalSeconds/3600)%24);
+  const min = Math.floor(-1*(totalSeconds/60)%60);
+  const sec = Math.floor(-1*(totalSeconds)%60);
  
   yearsEl.innerHTML= years;
   monthsEl.innerHTML= months;
