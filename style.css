@@ -8,7 +8,7 @@
 
 body{
   /* Changing the background picture *** Note: Save the imasge to the Pictures file and reroute the back part of the URL to the name of your image.  */
-  background-image:url("Pictures/Orangebaby.jpg");
+  background-image:url("Pictures/CER.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat:no-repeat;
@@ -20,7 +20,7 @@ body{
   min-height: 100vh; 
   /* Can change the font ***Note: you may want to look up google fonts and pick one from there, replace @import Url with the code of your choosing, then replace the font in '...' with the font name you chose*** */
   font-family: 'Libre Baskerville' ,serif;
-  color: lightblue;
+  color: #252556;
   margin: 1rem;
 }
 
@@ -61,7 +61,7 @@ h1{
 
 body{
   /* Changing the background picture *** Note: Save the imasge to the Pictures file and reroute the back part of the URL to the name of your image.  */
-  background-image:url("Pictures/Orangebaby.jpg");
+  background-image:url("Pictures/CER.jpg");
   background-size:200% auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -73,7 +73,7 @@ body{
   min-height: 100vh; 
   /* Can change the font ***Note: you may want to look up google fonts and pick one from there, replace @import Url with the code of your choosing, then replace the font in '...' with the font name you chose*** */
   font-family: 'Libre Baskerville' ,serif;
-  color: lightblue;
+  color: #00a3cc;
   
 }
 
